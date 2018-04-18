@@ -123,6 +123,8 @@ def main():
   response = urllib2.urlopen(history_data_url)
   html = response.read()
   for line in html.split('\n'):
+    print
+    print
     print html.split(',')
 
 if __name__ == '__main__':
